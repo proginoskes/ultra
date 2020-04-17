@@ -41,6 +41,11 @@ img {
     margin: 0.5rem 0;
 }
 
+img[src*=#visexampl]{
+    width: 33%
+    margin: 0.5rem 0;
+}
+
 nav {
     ul {
         list-style: none;
