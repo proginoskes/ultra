@@ -6,4 +6,6 @@ summary: example of a visualization slide
 category: Project category
 ---
 
-![visualization example](https://raw.githubusercontent.com/swat-ds/ds-visualizations/master/cancel_vf_1.png "visexampl")
+``html
+<img id="visimg" src="https://raw.githubusercontent.com/swat-ds/ds-visualizations/master/cancel_vf_1.png" alt="visualization example">
+``
