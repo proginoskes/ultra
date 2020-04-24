@@ -6,5 +6,5 @@ summary: click on a slide to view a more in depth description
 category: Project category
 ---
 
-<div w3-include-html="vis1.html"></div>
+<div class="visexampl" w3-include-html="/vis1.html"></div>
 
