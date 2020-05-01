@@ -1,0 +1,18 @@
+.descript {
+	background-color: black;
+	color: #facade;
+	opacity: 0;
+	position: relative;
+	float: right;
+	align: justify;
+	width: 100%;
+	&:hover{opacity:0.4;};
+}
+
+.extdescript{
+	opacity: 0;
+	&:click{opacity: 1;};
+}
+
+
+
