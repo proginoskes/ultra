@@ -1,3 +1,13 @@
+.itm{
+	height: 500px;
+}
+
+.extdescript{
+	opacity: 0;
+	&:click{opacity: 1;};
+}
+
+
 .descript {
 	background-color: black;
 	color: #facade;
@@ -8,11 +18,5 @@
 	width: 100%;
 	&:hover{opacity:0.4;};
 }
-
-.extdescript{
-	opacity: 0;
-	&:click{opacity: 1;};
-}
-
 
 
