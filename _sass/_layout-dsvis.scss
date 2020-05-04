@@ -15,7 +15,8 @@
 	float: center;
 	position: absolute;
 	width: 100%;
-	&:hover{opacity: 0.4};
+	height: 100%;
+	&:hover{opacity: 0.7};
 }
 
 
@@ -24,7 +25,7 @@
 	color: #facade;
 	position: relative;
 	float: right;
-	align: justify;
+	text-align: justify;
 	width: 100%;
 }
 
