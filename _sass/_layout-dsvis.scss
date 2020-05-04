@@ -1,15 +1,20 @@
 .itm{
 	height: 500px;
+	width:100%;
+	position: relative;
 }
 
 .visimg{
-	position: relative;
-	float: bottom;
+	float: center;
+	position: absolute;
+	width: 100%;
 }
 
 .extdescript{
 	opacity: 0;
-	position: relative;
+	float: center;
+	position: absolute;
+	width: 100%;
 	&:hover{opacity: 0.4};
 }
 
