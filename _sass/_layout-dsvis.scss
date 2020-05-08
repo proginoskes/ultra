@@ -23,8 +23,6 @@ $zero: 0;
 }
 
 .long_desc{
-	position: absolute;
-	color:#facade;
 	opacity:$zero;
 }
 
@@ -38,4 +36,23 @@ $zero: 0;
 
 .reveal{
 	opacity:1;
+}
+
+#vis2{
+	.short_desc{
+		opacity:$zero;
+	}
+	
+	.long_desc{
+		opacity:1;
+	}
+
+	.links{
+		opacity:1;
+	}
+
+	.design{
+		opacity:1;
+	}
+
 }
