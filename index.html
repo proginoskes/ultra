@@ -8,7 +8,11 @@ title: List
   <script>
 	function showDetails(){
 		var vis = document.getElementById("vis1");
-		vis.classList.add("reveal_details");
+		if(vis.classList.contains("reveal_details){
+			vis.classList.remove("reveal_details");
+		}else{
+			vis.classList.add("reveal_details");
+		}
 	};
   </script>
 	<div class="item" id="vis1" onclick="showDetails()">
