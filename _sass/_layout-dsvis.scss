@@ -25,17 +25,24 @@ $zero: 0;
 
 .long_desc{
 	opacity:$zero;
+	top: 5%; 
 	color: #facade;
 }
 
 .links{
 	opacity:$zero;
-	color: #facade;
+	float: left;
+	bottom: 5%;
+	width:50%;
+	color: white;
 }
 
 .design{
 	opacity:$zero;
-	color: #facade;
+	float: right;
+	bottom: 5%;
+	width:50%;
+	color: red;
 }
 
 .reveal_details{
