@@ -5,9 +5,14 @@ title: List
 
   <article class="post index" role="article">
   <h1 class="post-title">{{ site.description }}</h1>
+  <script>
+	function showDetails(){
+		document.getElementsByClassName(".long_desc").classList.add(".reveal");
+	};
+  </script>
 	<div class="item">
 		<img src="assets/images/cancel_vf_1.png">
-		<div class="all_text">
+		<div class="all_text" onclick="showDetails()">
 			<div class="short_desc">That gum you like is going to come back in style.</div>
 			<div class="long_desc">Complications set in — yes, complications. How many times have we heard: 'it's simple'. Nothing is simple. We live in a world where nothing is simple. Each day, just when we think we have a handle on things, suddenly some new element is introduced and everything is complicated once again. What is the secret? What is the secret to simplicity, to the pure and simple life? Are our appetites, our desires undermining us? Is the cart in front of the horse?</div>
 			<div class="links">markdown links stuff</div>
