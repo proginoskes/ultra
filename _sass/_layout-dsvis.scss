@@ -7,7 +7,7 @@ $disappear: 0;
 }
 
 .visimg{
-	float: center;
+	float: left;
 	position: absolute;
 	width: 100%;
 }
@@ -56,6 +56,12 @@ $disappear: 0;
 	top: 250;
 	opacity: $disappear;
 	z-axis: 3;
+}
+
+.appear{
+	width: 50%;
+	height: 50%;
+	opacity: 100;
 }
 
 
