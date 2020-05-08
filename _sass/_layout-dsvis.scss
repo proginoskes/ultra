@@ -5,10 +5,12 @@ $zero: 0;
 .item{
 	height: $item-height;
 	width: 100%;
+	position: relative;
 }
 
 .all_text{
 	background-color: black;
+	position: absolute;
 	height: $item-height;
 	width: 100%;
 	opacity: $zero;
