@@ -11,13 +11,14 @@ $zero: 0;
 .all_text{
 	background-color: black;
 	position: absolute; top: 0px;
-	height: $item-height;
+	height: 100%;
 	width: 100%;
 	opacity: $zero;
 	&:hover{opacity:$appear-bg;};
 }
 
 .short_desc{
+	position: absolute; top: 50%; left: 50%;
 	color: #facade;
 	
 }
