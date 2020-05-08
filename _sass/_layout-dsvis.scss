@@ -19,6 +19,7 @@ $zero: 0;
 
 .short_desc{
 	position: absolute; top: 45%; left: 33%;
+	font-size:2rem;
 	color: #facade;	
 }
 
@@ -37,11 +38,7 @@ $zero: 0;
 	color: #facade;
 }
 
-.reveal{
-	opacity:1;
-}
-
-#vis2{
+.reveal_details{
 	.short_desc{
 		opacity:$zero;
 	}
