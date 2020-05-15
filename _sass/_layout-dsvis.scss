@@ -10,10 +10,9 @@ $zero: 0;
 
 .all_text{
 	background-color: black;
-	position: absolute; top: 2rem;
+	position: absolute; top: 0px;
 	height: 100%;
 	width: 100%;
-	
 	opacity: $zero;
 	&:hover{opacity:$appear-bg;};
 }
@@ -26,14 +25,14 @@ $zero: 0;
 
 .long_desc{
 	opacity:$zero;
-	top: 5%; 
+	top: 5rem; 
 	color: #facade;
 }
 
 .links{
 	opacity:$zero;
 	float: left;
-	bottom: 5%;
+	bottom: 5rem;
 	width:50%;
 	color: white;
 }
@@ -41,7 +40,7 @@ $zero: 0;
 .design{
 	opacity:$zero;
 	float: right;
-	bottom: 5%;
+	bottom: 5rem;
 	width:50%;
 	color: red;
 }
