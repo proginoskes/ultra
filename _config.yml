@@ -61,15 +61,6 @@ defaults:
       type: "projects"
     values:
       layout: "project"
-<<<<<<< HEAD
-  -
-    scope:
-      path: ""
-      type: "list-items"
-    values:
-      layout: "page"
-=======
->>>>>>> parent of 911ad51... liquidifies one step
       
   - scope:
       path: "assets/images"

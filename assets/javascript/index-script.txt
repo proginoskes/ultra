@@ -1,4 +1,0 @@
-	function showDetails(which_vis){
-		var vis = document.getElementById(which_vis);
-		vis.classList.toggle("reveal_details");
-	};
