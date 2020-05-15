@@ -2,7 +2,7 @@
 layout: project
 title: swat-ds visualization example
 description: this is an example visualization
-summary: example of a visualization slide
+short_desc: That gum you like is going to come back in style.
 category: Project category
 ---
 
