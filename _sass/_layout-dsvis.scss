@@ -11,7 +11,7 @@ $zero: 0;
 .all_text{
 	background-color: black;
 	position: absolute; top: 0px;
-	height: 100%;
+	height: $item-height;
 	width: 100%;
 	opacity: $zero;
 	&:hover{opacity:$appear-bg;};

@@ -61,6 +61,12 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  -
+    scope:
+      path: ""
+      type: "list-items"
+    values:
+      layout: "index"
       
   - scope:
       path: "assets/images"
