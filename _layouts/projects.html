@@ -2,27 +2,12 @@
 layout: default
 ---
 
-
-<script>
-	function showDetails(which_vis){
-		var vis = document.getElementById(which_vis);
-		vis.classList.toggle("reveal_details");
-	};
-  </script>
 {% for project in site.projects reversed %}
 <article role="article">
   <h2><a href="{{ site.baseurl }}{{ project.url }}">
     {{ project.title }}
   </a></h2>
-	<div class="item" id="vis1" onclick="showDetails(this.getAttribute('id'))">
-		<img src="assets/images/cancel_vf_1.png">
-		<div class="all_text">
-			<div class="short_desc">{{ project.short_desc }}</div>
-			<div class="long_desc">{{ project.long_desc }}</div>
-			<div class="links">{{ project.links }}</div>
-			<div class="design">{{ project.design }}</div>
-		</div>
-	</div>
-
+  <p>{{ project.summary }}</p>
+    <time class="date" datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%Y" }} &middot; {{ project.category }}</time>
 </article>
 {% endfor %}

@@ -36,9 +36,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:slug
-  vis-list:
-    output: true
-    permalink: /
   
 defaults:
   -
@@ -64,12 +61,6 @@ defaults:
       type: "projects"
     values:
       layout: "project"
-  -
-    scope:
-      path: ""
-      type: "vis-list"
-    values:
-      layout: "page"
       
   - scope:
       path: "assets/images"
