@@ -2,7 +2,7 @@ site: Ultra
 url: https://example.com
 title: Ultra
 description: ds@swat - visualization hosting website
-explanation: this is a site that hosts the visualizations students, faculty, and staff of swarthmore college have produced over the years. Go to the ("projects")[/projects] tab to see a list of all the visualizations.
+explanation: this is a site that hosts the visualizations students, faculty, and staff of swarthmore college have produced over the years. Go to the "projects" tab to see a list of all the visualizations.
 twitter:
   username: yourusername
   card: summary
