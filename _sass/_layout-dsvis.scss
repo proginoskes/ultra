@@ -25,14 +25,14 @@ $zero: 0;
 
 .long_desc{
 	opacity:$zero;
-	top: 5rem; 
+	top: 50px; 
 	color: #facade;
 }
 
 .links{
 	opacity:$zero;
 	float: left;
-	bottom: 5rem;
+	bottom: 50px;
 	width:50%;
 	color: white;
 }
@@ -40,7 +40,7 @@ $zero: 0;
 .design{
 	opacity:$zero;
 	float: right;
-	bottom: 5rem;
+	bottom: 50px;
 	width:50%;
 	color: red;
 }
