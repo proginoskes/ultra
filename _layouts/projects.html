@@ -7,7 +7,7 @@ layout: default
   <h2><a href="{{ site.baseurl }}{{ project.url }}">
     {{ project.title }}
   </a></h2>
-  <p>{{ project.summary }}</p>
+  <p>{{ project.short_desc }}</p>
     <time class="date" datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%Y" }} &middot; {{ project.category }}</time>
 </article>
 {% endfor %}
