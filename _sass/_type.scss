@@ -17,7 +17,7 @@ header p strong {
     margin: 10rem 0;
     color: white;
     padding: 2rem;
-    font-weight: bold;
+    font-weight: bold; 
 }
 
 a,a:visited {
@@ -25,7 +25,8 @@ a,a:visited {
   font-weight: bold;
 
   &:hover {
-    color: dodgerblue;
+    color: #facade;
+    background-color: lightgrey;
   }
 }
 
