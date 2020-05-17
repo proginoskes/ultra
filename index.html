@@ -1,10 +1,28 @@
 ---
 layout: default
-title: Index
+title: Homepage
 ---
 
   <article class="post index" role="article">
   <h1 class="post-title">{{ site.description }}</h1>
   <p>{{ site.explanation }}</p>
+
   </article>
+{% for project in site.projects reversed %}
+<article role="article">
+  <h2><a href="{{ site.baseurl }}{{ project.url }}">
+    {{ project.title }}
+  </a></h2>
+  <div class="item" id="{{ project.ident }}" onclick="showDetails(this.getAttribute('id'))">
+	<img src="../assets/images/cancel_vf_1.png">
+	<div class="all_text">
+  		<div class="short_desc">{{ project.short_desc }}</div>
+  		<div class="long_desc">{{ project.full_desc }}</div>
+  		<div class="links">markdown links stuff</div>
+		<div class="design">{{ project.design }}</div>
+	</div>
+  </div>
+    <time class="date" datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%Y" }} &middot; {{ project.category }}</time>
+</article>
+{% endfor %}
 
