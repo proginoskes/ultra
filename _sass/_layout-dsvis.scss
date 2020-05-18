@@ -6,6 +6,7 @@ $zero: 0;
 $text1: black;
 $text2: #4b4b4b;
 $linktext: #facade;
+$linktextlight: #fef9fb;
 $linktexthover: #969696;
 
 
@@ -70,6 +71,10 @@ $linktexthover: #969696;
 	color: red;
 	font-style: italic;
 	font-weight: bold;
+}
+
+.light{
+	color: $linktextlight;
 }
 
 .reveal_details{
