@@ -15,6 +15,7 @@ $textmargin: 3rem;
 	display:flex;
 	flex-direction: column;
 	width:100%;
+	color: lightgrey;
 	.flex-subcontn{
 		display: flex;
 		flex-direction: row;
@@ -74,7 +75,6 @@ $textmargin: 3rem;
 	
 	.long_desc{
 		opacity:1;
-		color: lightgrey;
 	}
 
 	.links{
