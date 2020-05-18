@@ -37,7 +37,7 @@ $linktexthover: #969696;
 }
 
 .all_text{
-	background-color: #4b4b4b;
+	background-color: black;
 	position: absolute; top: 0px;
 	height: 100%;
 	width: 100%;
@@ -74,7 +74,7 @@ $linktexthover: #969696;
 .reveal_details{
 	.all_text{
 		opacity: 1;
-		color: lightgrey;
+		background-color: lightgrey;
 	}
 
 	.short_desc{
