@@ -15,8 +15,8 @@ title: Homepage
   </a></h2>
   <div class="item" id="{{ project.ident }}" onclick="showDetails(this.getAttribute('id'))">
 	<img src="../assets/images/cancel_vf_1.png">
-	<div class="all_text">
-  		<div class="short_desc">{{ project.short_desc }}</div>
+	<div class="all_text container">
+  		<div class="short_desc offset-by-one-half column">{{ project.short_desc }}</div>
   		<div class="long_desc">{{ project.full_desc }}</div>
   		<div class="links">markdown links stuff</div>
 		<div class="design">{{ project.design }}</div>
