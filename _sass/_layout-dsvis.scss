@@ -21,8 +21,7 @@ $linktexthover: #969696;
 	display:flex;
 	flex-direction: column;
 	width:100%;
-	$item-height: 500px;
-	background-color: lightgrey;
+	height: $item-height;
 	.flex-subcontn{
 		display: flex;
 		flex-direction: row;
