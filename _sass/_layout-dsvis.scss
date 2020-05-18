@@ -22,6 +22,7 @@ $linktexthover: #969696;
 	flex-direction: column;
 	width:100%;
 	height: $item-height;
+	opacity: $zero;
 	.flex-subcontn{
 		display: flex;
 		flex-direction: row;
@@ -83,7 +84,7 @@ $linktexthover: #969696;
 	}
 	
 	.flex-container{
-		opacity:1.4;
+		opacity:1;
 	}
 
 }
