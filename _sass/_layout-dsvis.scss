@@ -3,8 +3,10 @@ $item-height: 500px;
 $appear-bg: 0.7;
 $zero: 0;
 $text1: black;
+$text2: #4b4b4b;
 $linktext: #facade;
 $linktexthover: #969696;
+
 
 .margin-text{
 	margin-top: $textmargin;
@@ -18,7 +20,6 @@ $linktexthover: #969696;
 	display:flex;
 	flex-direction: column;
 	width:100%;
-	background-color: lightgrey;
 	.flex-subcontn{
 		display: flex;
 		flex-direction: row;
@@ -52,7 +53,8 @@ $linktexthover: #969696;
 .long_desc{
 	opacity:$zero;
 	top: 50px; 
-	color: #facade;
+	color: $text2;
+	background-color: lightgrey;
 }
 
 .links{
@@ -60,7 +62,8 @@ $linktexthover: #969696;
 	float: left;
 	bottom: 50px;
 	width:50%;
-	color: white;
+	color: $text2;
+	background-color: lightgrey;
 }
 
 .design{
@@ -69,6 +72,9 @@ $linktexthover: #969696;
 	bottom: 50px;
 	width:50%;
 	color: red;
+	text-style: italic;
+	text-weight: bold;
+	background-color: lightgrey;
 }
 
 .reveal_details{
