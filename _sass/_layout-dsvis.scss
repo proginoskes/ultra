@@ -3,6 +3,13 @@ $appear-bg: 0.7;
 $zero: 0;
 $textmargin: 3rem;
 
+.margin-text{
+	margin-top: $textmargin;
+	margin-left: $textmargin;
+	margin-right: $textmargin;
+	margin-bottom: $textmargin;
+}
+
 .flex-container{
 	positon:relative;
 	display:flex;
@@ -42,8 +49,6 @@ $textmargin: 3rem;
 	opacity:$zero;
 	top: 50px; 
 	color: #facade;
-	margin-left: $textmargin;
-	margin-right: $textmargin;
 }
 
 .links{
@@ -52,8 +57,6 @@ $textmargin: 3rem;
 	bottom: 50px;
 	width:50%;
 	color: white;
-	margin-left: $textmargin;
-	margin-right: $textmargin;
 }
 
 .design{
@@ -62,8 +65,6 @@ $textmargin: 3rem;
 	bottom: 50px;
 	width:50%;
 	color: red;
-	margin-left: $textmargin;
-	margin-right: $textmargin;
 }
 
 .reveal_details{
