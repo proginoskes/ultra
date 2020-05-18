@@ -1,6 +1,7 @@
 $item-height: 500;
 $appear-bg: 0.7;
 $zero: 0;
+$textmargin: 3rem;
 
 .flex-container{
 	positon:relative;
@@ -30,19 +31,19 @@ $zero: 0;
 }
 
 .short_desc{
-	position: absolute; top: 45%; left: 20%;
+	position: absolute; top: 45%;
 	font-size:2rem;
 	color: #facade;	
-	margin-left: 1rem;
-	margin-right: 1rem;
+	margin-left: 33%;
+	margin-right: 33%;
 }
 
 .long_desc{
 	opacity:$zero;
 	top: 50px; 
 	color: #facade;
-	margin-left: 1rem;
-	margin-right: 1rem;
+	margin-left: $textmargin;
+	margin-right: $textmargin;
 }
 
 .links{
@@ -51,8 +52,8 @@ $zero: 0;
 	bottom: 50px;
 	width:50%;
 	color: white;
-	margin-left: 1rem;
-	margin-right: 1rem;
+	margin-left: $textmargin;
+	margin-right: $textmargin;
 }
 
 .design{
@@ -61,8 +62,8 @@ $zero: 0;
 	bottom: 50px;
 	width:50%;
 	color: red;
-	margin-left: 1rem;
-	margin-right: 1rem;
+	margin-left: $textmargin;
+	margin-right: $textmargin;
 }
 
 .reveal_details{
