@@ -16,11 +16,13 @@ title: Homepage
   <div class="item" id="{{ project.ident }}" onclick="showDetails(this.getAttribute('id'))">
 	<img src="../assets/images/cancel_vf_1.png">
 	<div class="all_text">
-		<div class="flex-container">	
-  			<div class="short_desc">{{ project.short_desc }}</div>
+		<div class="short_desc">{{ project.short_desc }}</div>
+		<div class="flex-container">
   			<div class="long_desc">{{ project.full_desc }}</div>
-  			<div class="links">markdown links stuff</div>
-			<div class="design">{{ project.design }}</div>
+			<div class="flex-subcontn">
+  				<div class="links">markdown links stuff</div>
+				<div class="design">{{ project.design }}</div>
+			</div>
 		</div>
 	</div>
   </div>
