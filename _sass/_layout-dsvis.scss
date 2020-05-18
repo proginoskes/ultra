@@ -2,6 +2,18 @@ $item-height: 500;
 $appear-bg: 0.7;
 $zero: 0;
 
+.flex-container{
+	positon:relative;
+	display:flex;
+	flex-direction: column;
+	width:100%;
+	.flex-subcontn{
+		display: flex;
+		flex-direction row;
+	};
+	
+}
+
 .item{
 	height: $item-height;
 	width: 100%;
@@ -21,12 +33,16 @@ $zero: 0;
 	position: absolute; top: 45%; left: 20%;
 	font-size:2rem;
 	color: #facade;	
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
 .long_desc{
 	opacity:$zero;
 	top: 50px; 
 	color: #facade;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
 .links{
@@ -35,6 +51,8 @@ $zero: 0;
 	bottom: 50px;
 	width:50%;
 	color: white;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
 .design{
@@ -43,6 +61,8 @@ $zero: 0;
 	bottom: 50px;
 	width:50%;
 	color: red;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
 .reveal_details{
