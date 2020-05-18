@@ -26,6 +26,7 @@ $linktexthover: #969696;
 	.flex-subcontn{
 		display: flex;
 		flex-direction: row;
+		justify-content: center;
 	};
 	
 }
@@ -67,8 +68,8 @@ $linktexthover: #969696;
 .design{
 	float: right;
 	color: red;
-	text-style: italic;
-	text-weight: bold;
+	font-style: italic;
+	font-weight: bold;
 }
 
 .reveal_details{
