@@ -54,14 +54,12 @@ $linktexthover: #969696;
 }
 
 .long_desc{
-	opacity:$zero;
 	top: 50px; 
 	color: $text2;
 	background-color: lightgrey;
 }
 
 .links{
-	opacity:$zero;
 	float: left;
 	bottom: 50px;
 	width:50%;
@@ -69,7 +67,6 @@ $linktexthover: #969696;
 }
 
 .design{
-	opacity:$zero;
 	float: right;
 	bottom: 50px;
 	width:50%;
