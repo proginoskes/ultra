@@ -1,8 +1,3 @@
-$item-height: 500;
-$appear-bg: 0.7;
-$zero: 0;
-$textmargin: 3rem;
-
 .margin-text{
 	margin-top: $textmargin;
 	margin-left: $textmargin;
@@ -15,7 +10,7 @@ $textmargin: 3rem;
 	display:flex;
 	flex-direction: column;
 	width:100%;
-	color: lightgrey;
+	background-color: lightgrey;
 	.flex-subcontn{
 		display: flex;
 		flex-direction: row;
