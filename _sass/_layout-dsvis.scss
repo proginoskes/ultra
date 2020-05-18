@@ -37,11 +37,12 @@ $linktexthover: #969696;
 }
 
 .all_text{
-	background-color: black;
+	background-color: #4b4b4b;
 	position: absolute; top: 0px;
 	height: 100%;
 	width: 100%;
 	opacity: $zero;
+	text-align: justify;
 	&:hover{opacity:$appear-bg;};
 }
 
@@ -60,15 +61,11 @@ $linktexthover: #969696;
 
 .links{
 	float: left;
-	bottom: 50px;
-	width:50%;
 	color: $text2;
 }
 
 .design{
 	float: right;
-	bottom: 50px;
-	width:50%;
 	color: red;
 	text-style: italic;
 	text-weight: bold;
